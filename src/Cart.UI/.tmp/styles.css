@@ -1,0 +1,25 @@
+body {
+  background-color: #808080; }
+  body section {
+    width: 600px; }
+    body section.header, body section.footer {
+      background-color: #eee; }
+    body section h1 {
+      margin: 0 auto;
+      padding: 20px; }
+    body section.cart-view {
+      background-color: #fff;
+      padding: 20px;
+      width: 560px; }
+      body section.cart-view table {
+        border-spacing: 0;
+        border: 3px solid #333; }
+      body section.cart-view table td, body section.cart-view table th {
+        padding: 10px;
+        border-left: 1px solid #666;
+        border-right: 1px solid #666; }
+      body section.cart-view table th {
+        border-bottom: 3px solid #333; }
+    body section.footer {
+      padding: 20px;
+      width: 560px; }

@@ -1,0 +1,12 @@
+﻿{
+    "version": "1.0.0-*",
+
+    "dependencies": {
+        "Autofac.Extensions.DependencyInjection": "4.0.0-rc1-177",
+        "Cart.Core": "1.0.0-*"
+    },
+
+    "frameworks": {
+        "dnx451": {}
+    }
+}

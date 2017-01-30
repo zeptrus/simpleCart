@@ -1,0 +1,18 @@
+<div ng-controller="CustomerController as vm">
+    <a href="#/orders">< Back to Orders</a>
+    <h2>Orders for {{vm.customer.FirstName + " " + vm.customer.LastName}}</h2>
+    <section>
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Total</th>
+                <th>Date</th>
+            </tr>
+            <tr ng-repeat="order in vm.orders">
+                <td>{{order.Id}}</td>
+                <td>{{order.TotalPaid | currency}}</td>
+                <td>{{order.DatePlaced | date:'MMM d, y'}}</td>
+            </tr>
+        </table>
+    </section>
+</div>

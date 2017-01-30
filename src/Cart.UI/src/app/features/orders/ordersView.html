@@ -1,0 +1,16 @@
+﻿<div ng-controller="OrdersController as vm">
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Total</th>
+            <th>Date</th>
+            <th>Customer</th>
+        </tr>
+        <tr ng-repeat="order in vm.orders">
+            <td>{{order.Id}}</td>
+            <td>{{order.TotalPaid | currency}}</td>
+            <td>{{order.DatePlaced | date:'MMM d, y'}}</td>
+            <td><a href="#/customer/{{order.CustomerId}}">Customer Information</a></td>
+        </tr>
+    </table>
+</div>

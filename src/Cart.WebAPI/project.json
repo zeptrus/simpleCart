@@ -1,0 +1,36 @@
+{
+    "dependencies": {
+        "Autofac.Extensions.DependencyInjection": "4.0.0-rc1-177",
+        "AutoMapper": "4.2.0",
+        "Cart.Core": "1.0.0-*",
+        "Cart.Domain.Order": "1.0.0-*",
+        "Cart.Domain.Customer": "1.0.0-*",
+        "Cart.Infrastructure": "1.0.0-*",
+        "Microsoft.AspNet.Cors": "6.0.0-rc1-final",
+        "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
+        "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
+        "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
+        "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+        "Microsoft.Extensions.Configuration": "1.0.0-rc1-final",
+        "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+        "Microsoft.Extensions.OptionsModel": "1.0.0-rc1-final"
+    },
+
+    "frameworks": {
+        "dnx451": {}
+    },
+
+    "commands": {
+        "web": "Microsoft.AspNet.Server.Kestrel"
+    },
+
+    "exclude": [
+        "wwwroot"
+    ],
+
+    "publishExclude": [
+        "**.xproj",
+        "**.user",
+        "**.vspscc"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "directory": "bower_components",
+  "https-proxy": "http://jhproxy1.phibred.com:8080",
+  "proxy": "http://jhproxy1.phibred.com:8080",
+    "registry": {
+        "search": [ "http://research-bower.phibred.com/bower/Default"]
+    },
+  "scripts": {
+    "postinstall": "gulp wiredep"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "simplecart",
+  "private": true,
+    "dependencies": {
+        "angular": "1.4.12",
+        "angular-bootstrap": "~1.1.0",
+        "angular-route": "1.4.12"
+    }
+}

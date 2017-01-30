@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Simple Cart</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- build:css styles/app.css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/.tmp/styles.css">
+    <!-- endinject -->
+    <!-- endbuild-->
+</head>
+<body>
+    <section class="header">
+        <h1>Simple Cart</h1>
+    </section>
+    <section class="cart-view">
+        <ng-view></ng-view>
+    </section>
+    <section class="footer">
+        Copyrighted 2016 SimpleCart
+    </section>
+    <!-- build:js scripts/lib.js-->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js scripts/config.js -->
+    <!-- config:js -->
+    <script src="/src/app/config.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+    <!-- build:js scripts/app.js-->
+    <!-- inject:js -->
+    <script src="/.tmp/app.js"></script>
+    <script src="/.tmp/templates.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+</body>
+</html>
